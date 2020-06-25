@@ -14,6 +14,10 @@
 		5494A76B248BF1640072FA8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5494A76A248BF1640072FA8A /* Preview Assets.xcassets */; };
 		5494A76E248BF1640072FA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494A76C248BF1640072FA8A /* LaunchScreen.storyboard */; };
 		5494A779248BF1650072FA8A /* SwiftUI_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494A778248BF1650072FA8A /* SwiftUI_demoTests.swift */; };
+		5494A784248F3D100072FA8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5494A783248F3D100072FA8A /* README.md */; };
+		5494A786248F3D170072FA8A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5494A785248F3D170072FA8A /* LICENSE */; };
+		549ADE9A24A47EC500E069EC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549ADE9924A47EC500E069EC /* CircleImage.swift */; };
+		549ADE9C24A480DE00E069EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549ADE9B24A480DE00E069EC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		5494A774248BF1650072FA8A /* SwiftUI-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494A778248BF1650072FA8A /* SwiftUI_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_demoTests.swift; sourceTree = "<group>"; };
 		5494A77A248BF1650072FA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5494A783248F3D100072FA8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		5494A785248F3D170072FA8A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		549ADE9924A47EC500E069EC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		549ADE9B24A480DE00E069EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +90,13 @@
 				5494A761248BF15F0072FA8A /* AppDelegate.swift */,
 				5494A763248BF15F0072FA8A /* SceneDelegate.swift */,
 				5494A765248BF15F0072FA8A /* ContentView.swift */,
+				549ADE9924A47EC500E069EC /* CircleImage.swift */,
+				549ADE9B24A480DE00E069EC /* MapView.swift */,
 				5494A767248BF1640072FA8A /* Assets.xcassets */,
 				5494A76C248BF1640072FA8A /* LaunchScreen.storyboard */,
 				5494A76F248BF1640072FA8A /* Info.plist */,
+				5494A783248F3D100072FA8A /* README.md */,
+				5494A785248F3D170072FA8A /* LICENSE */,
 				5494A769248BF1640072FA8A /* Preview Content */,
 			);
 			path = "SwiftUI-demo";
@@ -190,7 +202,9 @@
 			files = (
 				5494A76E248BF1640072FA8A /* LaunchScreen.storyboard in Resources */,
 				5494A76B248BF1640072FA8A /* Preview Assets.xcassets in Resources */,
+				5494A784248F3D100072FA8A /* README.md in Resources */,
 				5494A768248BF1640072FA8A /* Assets.xcassets in Resources */,
+				5494A786248F3D170072FA8A /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5494A762248BF15F0072FA8A /* AppDelegate.swift in Sources */,
+				549ADE9A24A47EC500E069EC /* CircleImage.swift in Sources */,
+				549ADE9C24A480DE00E069EC /* MapView.swift in Sources */,
 				5494A764248BF15F0072FA8A /* SceneDelegate.swift in Sources */,
 				5494A766248BF15F0072FA8A /* ContentView.swift in Sources */,
 			);
